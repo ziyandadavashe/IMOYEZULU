@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #885df1;
+  color: #aa84e7;
 }
 
 .weather-app {
@@ -24,7 +24,7 @@ header {
 .search-input {
   background-color: #f9f7fe;
   border: none;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(33, 66, 60, 0.4);
   font-size: 16px;
   padding: 20px;
   width: 75%;
@@ -34,8 +34,8 @@ header {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #885df1;
-  color: white;
+  background-color: #4ad45a;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 20px;
   line-height: 1;
@@ -68,7 +68,7 @@ main {
 }
 
 .current-details strong {
-  color: #f65282;
+  color: #84e78f;
 }
 
 .current-temperature-icon {
