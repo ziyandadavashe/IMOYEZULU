@@ -44,9 +44,6 @@ function formatDate(date) {
   return `${formattedDay} ${hours}:${minutes}`;
 }
 
-let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", search);
-
 let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
@@ -56,3 +53,12 @@ function cityTemperature(response) {
   let showTemp = document.querySelector(".current-temperature-value");
   showTemp.innerHTML = temp;
 }
+
+function handleSearchSubmit(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-form-input");
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = searchInput.value;
+}
+let searchForm = document.querySelector("#search-form");
+searchForm.addEventListener("submit", handleSearchSubmit);
