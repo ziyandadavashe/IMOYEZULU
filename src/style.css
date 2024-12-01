@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #aa84e7;
+  color: rgb(7, 252, 138);
 }
 
 .weather-app {
@@ -34,7 +34,7 @@ header {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #4ad45a;
+  background-color: rgb(7, 252, 138);
   color: rgb(255, 255, 255);
   border: none;
   padding: 20px;
@@ -68,7 +68,7 @@ main {
 }
 
 .current-details strong {
-  color: #84e78f;
+  color: #df84e7;
 }
 
 .current-temperature-icon {
