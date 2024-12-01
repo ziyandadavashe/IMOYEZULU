@@ -56,4 +56,3 @@ function cityTemperature(response) {
   let showTemp = document.querySelector(".current-temperature-value");
   showTemp.innerHTML = temp;
 }
-ihioyio;
